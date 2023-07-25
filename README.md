@@ -1,0 +1,3 @@
+I am currently studying for my LPIC-2 exam and I am using an AWS EC2 for labbing. To mimimize my aws bill I've decided to power off the ec2 instance when I am not using it. The issue with that is, everytime I want to use the ec2 instance I  have to log into the AWS console, power on the VM and get the new public IP.
+
+I found this too time consuming (2 mins :-) ) , so I created this powershell script to power on the ec2 instance, grab the new public IP and access it remotely via ssh.
